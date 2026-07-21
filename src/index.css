@@ -165,7 +165,7 @@ img { display: block; max-width: 100%; }
   min-height: min(1539px, 106.875vw);
   padding: clamp(90px, 12vw, 185px) var(--gutter);
   background-color: var(--paper);
-  background-image: url('/assets/projects-paper.png');
+  background-image: url('/assets/projects-paper.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -380,7 +380,7 @@ img { display: block; max-width: 100%; }
 .feature { min-height: 420px; padding: 80px 30px; color: white; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; overflow: hidden; }
 .feature > * { position: relative; z-index: 2; }
 .feature-red { background: #8e000e; }
-.feature-image { background: url('/assets/craft.png') center/cover; }
+.feature-image { background: url('/assets/craft.webp') center/cover; }
 .feature-image::after { content: ''; position: absolute; inset: 0; background: rgba(20,16,14,.52); }
 .feature h3 { margin: 0 0 13px; font-family: var(--display); font-size: 20px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
 .feature p { margin: 0; font-size: 15px; }

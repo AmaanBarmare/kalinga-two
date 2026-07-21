@@ -1,15 +1,15 @@
 import { useEffect, useRef, useState } from 'react'
 
 const leftHeroImages = [
-  '/assets/hero-left-01.png',
-  '/assets/hero-left-02.png',
-  '/assets/hero-left-03.png',
+  '/assets/hero-left-01.webp',
+  '/assets/hero-left-02.webp',
+  '/assets/hero-left-03.webp',
 ]
 
 const rightHeroImages = [
-  '/assets/hero-right-03.png',
-  '/assets/hero-right-02.png',
-  '/assets/hero-right-01.png',
+  '/assets/hero-right-03.webp',
+  '/assets/hero-right-02.webp',
+  '/assets/hero-right-01.webp',
 ]
 
 function Header() {
@@ -214,9 +214,9 @@ function Statement() {
 }
 
 const signatureCards = [
-  { image: '/assets/signature-01.png', title: 'Material-led design', copy: 'Surfaces conceived as architectural elements, balancing tactility, performance and a quiet visual rhythm.' },
-  { image: '/assets/signature-02.png', title: 'A language of texture', copy: 'Finishes that make light visible—softly honed, richly dimensional and made to reward a closer look.' },
-  { image: '/assets/signature-03.png', title: 'Made through collaboration', copy: 'A creative process shared with architects and designers, from first sketch to finished space.' },
+  { image: '/assets/signature-01.webp', title: 'Material-led design', copy: 'Surfaces conceived as architectural elements, balancing tactility, performance and a quiet visual rhythm.' },
+  { image: '/assets/signature-02.webp', title: 'A language of texture', copy: 'Finishes that make light visible—softly honed, richly dimensional and made to reward a closer look.' },
+  { image: '/assets/signature-03.webp', title: 'Made through collaboration', copy: 'A creative process shared with architects and designers, from first sketch to finished space.' },
 ]
 
 function WhyKalinga() {
@@ -344,22 +344,22 @@ function Projects() {
 
   const projects = [
     {
-      room: '/assets/classic-crystal-room.png',
-      swatch: '/assets/classic-crystal-swatch.png',
+      room: '/assets/classic-crystal-room.webp',
+      swatch: '/assets/classic-crystal-swatch.webp',
       title: 'Classic Crystal',
       type: 'Marble',
       variant: 'classic',
     },
     {
-      room: '/assets/emperador-scuro-room.png',
-      swatch: '/assets/emperador-scuro-swatch.png',
+      room: '/assets/emperador-scuro-room.webp',
+      swatch: '/assets/emperador-scuro-swatch.webp',
       title: 'Emperador Scuro',
       type: 'Marble',
       variant: 'scuro',
     },
     {
-      room: '/assets/classic-crystal-room.png',
-      swatch: '/assets/classic-crystal-swatch.png',
+      room: '/assets/classic-crystal-room.webp',
+      swatch: '/assets/classic-crystal-swatch.webp',
       title: 'Classic Crystal',
       type: 'Marble',
       variant: 'classic',
@@ -386,10 +386,10 @@ function Projects() {
 }
 
 const stoneDeck = [
-  { name: 'Quartz', image: '/assets/stone-quartz.png', imageClass: 'quartz' },
-  { name: 'Marble', image: '/assets/stone-marble.png', imageClass: 'marble' },
-  { name: 'Terrazzo', image: '/assets/stone-terrazzo.png', imageClass: 'terrazzo' },
-  { name: 'Porcelain', image: '/assets/stone-porcelain.png', imageClass: 'porcelain' },
+  { name: 'Quartz', image: '/assets/stone-quartz.webp', imageClass: 'quartz' },
+  { name: 'Marble', image: '/assets/stone-marble.webp', imageClass: 'marble' },
+  { name: 'Terrazzo', image: '/assets/stone-terrazzo.webp', imageClass: 'terrazzo' },
+  { name: 'Porcelain', image: '/assets/stone-porcelain.webp', imageClass: 'porcelain' },
 ]
 
 function Stones() {
@@ -507,10 +507,10 @@ function Visualise() {
   const [comparison, setComparison] = useState(50)
   const [surface, setSurface] = useState(0)
   const surfaces = [
-    { name: 'Murano Beige · Honed', color: '#d7d1c8', option: '/assets/visualizer-option-01.png', filter: 'none', lightLabel: false },
-    { name: 'Emperador Scuro · Honed', color: '#5e544e', option: '/assets/visualizer-option-02.png', filter: 'brightness(.58) saturate(.55) sepia(.18)', lightLabel: true },
-    { name: 'Botticino · Honed', color: '#9b8d6d', option: '/assets/visualizer-option-03.png', filter: 'sepia(.42) saturate(.72) brightness(.93)', lightLabel: true },
-    { name: 'Polar White · Honed', color: '#e7ecef', option: '/assets/visualizer-option-04.png', filter: 'saturate(.24) brightness(1.14)', lightLabel: false },
+    { name: 'Murano Beige · Honed', color: '#d7d1c8', option: '/assets/visualizer-option-01.webp', filter: 'none', lightLabel: false },
+    { name: 'Emperador Scuro · Honed', color: '#5e544e', option: '/assets/visualizer-option-02.webp', filter: 'brightness(.58) saturate(.55) sepia(.18)', lightLabel: true },
+    { name: 'Botticino · Honed', color: '#9b8d6d', option: '/assets/visualizer-option-03.webp', filter: 'sepia(.42) saturate(.72) brightness(.93)', lightLabel: true },
+    { name: 'Polar White · Honed', color: '#e7ecef', option: '/assets/visualizer-option-04.webp', filter: 'saturate(.24) brightness(1.14)', lightLabel: false },
   ]
   const activeSurface = surfaces[surface]
 
@@ -564,11 +564,11 @@ function Visualise() {
           onPointerUp={handlePointerUp}
           onPointerCancel={handlePointerUp}
         >
-          <img className="comparison-image comparison-before" src="/assets/visualizer-before-room.png" alt="Living room before applying a Kalinga surface" />
+          <img className="comparison-image comparison-before" src="/assets/visualizer-before-room.webp" alt="Living room before applying a Kalinga surface" />
           <div className="comparison-after" aria-hidden="true">
             <img
               className="comparison-image"
-              src="/assets/visualizer-after-room.png"
+              src="/assets/visualizer-after-room.webp"
               alt=""
               style={{ filter: activeSurface.filter }}
             />
@@ -646,7 +646,7 @@ function GlobalReach() {
       </div>
       <div className="world-map-stage">
         <div className="world-map-art">
-          <img className="world-map" src="/assets/world-map.png" alt="World map showing Kalinga Stone's international presence" />
+          <img className="world-map" src="/assets/world-map.webp" alt="World map showing Kalinga Stone's international presence" />
         </div>
       </div>
     </section>
@@ -654,10 +654,10 @@ function GlobalReach() {
 }
 
 const clubCards = [
-  { image: '/assets/slabs.png', title: 'Designing with intention' },
-  { image: '/assets/craft.png', title: 'The hands behind the surface' },
-  { image: '/assets/signature-01.png', title: 'Materials that change a room' },
-  { image: '/assets/signature-03.png', title: 'A study in light and stone' },
+  { image: '/assets/slabs.webp', title: 'Designing with intention' },
+  { image: '/assets/craft.webp', title: 'The hands behind the surface' },
+  { image: '/assets/signature-01.webp', title: 'Materials that change a room' },
+  { image: '/assets/signature-03.webp', title: 'A study in light and stone' },
 ]
 
 function Club() {
