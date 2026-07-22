@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 
 const leftHeroImages = [
-  '/assets/hero-left-01.webp',
+  '/assets/lobby-hotel.webp',
   '/assets/hero-left-02.webp',
   '/assets/hero-left-03.webp',
 ]
@@ -85,7 +85,7 @@ function Hero() {
           <div className="hero-track" ref={leftTrackRef}>
             {leftHeroImages.map((src, index) => (
               <figure className="hero-frame" key={src}>
-                <img src={src} alt={index === 0 ? 'Terrazzo bathroom designed with Kalinga Stone' : 'Kalinga Stone material inspiration'} />
+                <img src={src} alt={index === 0 ? 'Hotel lobby finished with Kalinga Stone surfaces' : 'Kalinga Stone material inspiration'} />
               </figure>
             ))}
           </div>
